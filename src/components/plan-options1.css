@@ -1,0 +1,49 @@
+.change-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 24px;
+}
+.change-current-plan1 {
+  position: relative;
+  font-weight: 600;
+}
+.change-plan-options,
+.plan-option-descriptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.plan-option-descriptions {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.change-plan-options {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.you-can-change1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.plan-options {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-xl)
+    var(--padding-11xl);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}

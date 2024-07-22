@@ -1,0 +1,114 @@
+.your-projects2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.manage-all-users2 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-lightslategray);
+}
+.your-projects-container,
+.your-projects-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.your-projects-container {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.your-projects-description {
+  width: 356px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.manage-title {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 24px;
+}
+.manage-projects-description {
+  border-radius: var(--br-28xl);
+  background-color: var(--color-royalblue-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-4xl);
+}
+.manage-projects2 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 123px;
+}
+.manage-projects-wrapper,
+.manage-projects1,
+.your-projects1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.manage-projects-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xl) var(--padding-7xl);
+  background-color: var(--color-royalblue-300);
+  border-radius: var(--br-28xl);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.manage-projects-wrapper:hover {
+  background-color: var(--color-royalblue-100);
+}
+.manage-projects1,
+.your-projects1 {
+  gap: var(--gap-lgi);
+  color: var(--color-white);
+}
+.your-projects1 {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-shrink: 0;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}
+@media screen and (max-width: 1050px) {
+  .manage-title,
+  .your-projects2 {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .your-projects1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .manage-title,
+  .your-projects2 {
+    font-size: var(--font-size-5xl);
+  }
+}

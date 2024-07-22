@@ -1,0 +1,137 @@
+.close-icon1,
+.product-icons3 {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  object-fit: contain;
+}
+.close-icon1 {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.close-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.line-div {
+  height: 53px;
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.edit-icon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.edit-container {
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+}
+.edit-container,
+.frame-parent14,
+.frame-wrapper5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent14 {
+  align-self: stretch;
+  height: 61px;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-9xl) var(--padding-12xs);
+  gap: var(--gap-lgi-5);
+}
+.frame-wrapper5 {
+  height: 103px;
+  width: 154px;
+  flex-direction: column;
+}
+.product-icons-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.finance-app3 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.finance-app-container {
+  width: 266px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.take-control-of3 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.finance-description-wrapper {
+  flex: 1;
+  flex-direction: row;
+}
+.finance-description-wrapper,
+.finance-description-wrapper-wrapper,
+.frame-parent13 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.finance-description-wrapper-wrapper {
+  width: 275px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.frame-parent13 {
+  margin-top: -324px;
+  margin-right: -56px;
+  width: 328px;
+  flex-direction: column;
+  gap: var(--gap-2xl-5);
+  flex-shrink: 0;
+  max-width: 119%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray);
+  font-family: var(--font-ibm-plex-sans);
+}
+@media screen and (max-width: 1050px) {
+  .finance-app3 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .product-icons-group {
+    flex-wrap: wrap;
+  }
+  .finance-app3 {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,31 @@
+.seamless-user-authentication {
+  position: relative;
+  font-weight: 600;
+}
+.content3,
+.seamless-user-authentication-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.seamless-user-authentication-wrapper {
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+  margin-left: -1145px;
+}
+.content3 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-193xl-8);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-royalblue-300);
+  font-family: var(--font-ibm-plex-sans);
+}
+@media screen and (max-width: 450px) {
+  .seamless-user-authentication {
+    font-size: var(--font-size-base);
+  }
+}

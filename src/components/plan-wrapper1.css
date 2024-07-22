@@ -1,0 +1,203 @@
+.free2 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-barlow);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 40px;
+}
+.pricing-wrapper-tag2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-6xl);
+  background-color: var(--color-royalblue-400);
+  border-radius: var(--br-base);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-wrapper-tag2:hover {
+  background-color: var(--color-royalblue-200);
+}
+.secure-user-authentication6 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.amount,
+.month2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.amount {
+  min-width: 58px;
+  white-space: nowrap;
+}
+.month2 {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-family: inherit;
+  color: var(--color-lightslategray);
+  min-width: 68px;
+}
+.price-container2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-104xl) var(--padding-6xs) 0;
+  gap: var(--gap-6xs);
+  font-size: var(--font-size-29xl);
+}
+.crosscheck-icon6 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.customize-the-levels6 {
+  position: relative;
+  font-weight: 500;
+}
+.pricing-checklist-item6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.crosscheck-icon7 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.customize-the-levels7 {
+  position: relative;
+  font-weight: 500;
+}
+.pricing-checklist-item7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.multiply-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.crosscheck-icon8 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.customize-the-levels8 {
+  position: relative;
+  font-weight: 500;
+}
+.pricing-checklist-item8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.pricing-checklist2,
+.subscribed-currently {
+  font-size: var(--font-size-sm);
+  text-align: center;
+}
+.pricing-checklist2 {
+  align-self: stretch;
+  border-top: 1px solid var(--color-aliceblue);
+  border-bottom: 1px solid var(--color-aliceblue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) var(--padding-lgi) var(--padding-15xl) 0;
+  gap: var(--gap-base);
+}
+.subscribed-currently {
+  position: relative;
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-royalblue-400);
+}
+.plan-wrapper2,
+.subscription-buttons {
+  border: 2px solid var(--color-royalblue-300);
+  overflow: hidden;
+  display: flex;
+}
+.subscription-buttons {
+  cursor: pointer;
+  padding: var(--padding-sm) var(--padding-39xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-lgi);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.subscription-buttons:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 2px solid var(--color-royalblue-100);
+  box-sizing: border-box;
+}
+.plan-wrapper2 {
+  flex: 1;
+  border-radius: var(--br-14xl);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-7xl);
+  gap: var(--gap-3xs-3);
+  min-width: 234px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}
+@media screen and (max-width: 750px) {
+  .amount {
+    font-size: var(--font-size-19xl);
+  }
+  .plan-wrapper2 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .free2 {
+    font-size: var(--font-size-base);
+  }
+  .amount {
+    font-size: var(--font-size-10xl);
+  }
+  .month2 {
+    font-size: var(--font-size-base);
+  }
+  .price-container2,
+  .subscription-buttons {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .subscription-buttons {
+    padding-left: var(--padding-xl);
+  }
+}

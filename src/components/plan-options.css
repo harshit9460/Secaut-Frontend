@@ -1,0 +1,49 @@
+.magnetic-card {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.edit-payment-methods {
+  position: relative;
+  font-weight: 600;
+}
+.edit-payment-methods-wrapper,
+.magnetic-card-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.edit-payment-methods-wrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.magnetic-card-parent {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.add-edit-or1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.plan-options1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-xl)
+    var(--padding-11xl);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}

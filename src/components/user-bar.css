@@ -1,0 +1,84 @@
+.divider,
+.profile {
+  box-sizing: border-box;
+}
+.divider {
+  width: 1px;
+  height: 27px;
+  position: relative;
+  border-right: 1px solid var(--color-dimgray-400);
+}
+.profile {
+  height: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.joseph-gonzalez-ifgrcqhznqg-un-icon1 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: var(--br-44xl);
+  object-fit: cover;
+}
+.james-colin {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 91px;
+}
+.user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.chevron-down-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  object-fit: cover;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.profile-wrapper,
+.user-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.profile-wrapper {
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+  cursor: pointer;
+}
+.user-bar {
+  align-self: stretch;
+  border-right: 2px solid var(--color-aliceblue);
+  border-bottom: 1px solid var(--color-aliceblue);
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: var(--padding-xs) var(--padding-25xl) var(--padding-3xs);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-ibm-plex-sans);
+}
+@media screen and (max-width: 450px) {
+  .user-bar {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

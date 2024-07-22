@@ -1,0 +1,135 @@
+.subtract-icon {
+  height: 16.5px;
+  width: 13.1px;
+  position: relative;
+  object-fit: contain;
+  min-height: 17px;
+}
+.visa-icon {
+  height: 14.7px;
+  width: 48px;
+  position: relative;
+}
+.visa-card-icon-row {
+  width: 271px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.text-5 {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+}
+.text-3,
+.text-6 {
+  position: relative;
+  display: inline-block;
+}
+.text-3 {
+  font-weight: 500;
+  min-width: 103px;
+}
+.text-6 {
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.04em;
+  background: linear-gradient(180deg, #172135, rgba(7, 13, 23, 0.81));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  min-width: 82px;
+}
+.text-3-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.text-2,
+.text-7 {
+  position: relative;
+  display: inline-block;
+}
+.text-2 {
+  font-weight: 500;
+  min-width: 65px;
+}
+.text-7 {
+  letter-spacing: 0.04em;
+  background: linear-gradient(180deg, #172135, rgba(7, 13, 23, 0.81));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  min-width: 43px;
+}
+.text-2-parent,
+.text-7-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-7-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xl);
+  font-size: var(--font-size-smi);
+}
+.text-2-parent {
+  flex-direction: column;
+}
+.frame-parent11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+}
+.text-5-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.visa-card-details-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 0;
+}
+.visa-card-details {
+  flex: 1;
+  border-radius: var(--br-15xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-2xl) var(--padding-mid);
+  gap: var(--gap-45xl-5);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .text-5 {
+    font-size: var(--font-size-base);
+  }
+  .visa-card-details {
+    gap: var(--gap-13xl);
+  }
+}

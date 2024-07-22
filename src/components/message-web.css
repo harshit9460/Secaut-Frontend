@@ -1,0 +1,93 @@
+.hello-i-have1 {
+  position: relative;
+  font-weight: 500;
+}
+.hello-i-have-an-issue-wrapper,
+.message-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.hello-i-have-an-issue-wrapper {
+  border-radius: var(--br-xs) 0 var(--br-xs) var(--br-xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-aliceblue);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.message-content {
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+}
+.am2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 45px;
+  white-space: nowrap;
+}
+.message-delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.you2 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 21px;
+}
+.message-sender-details,
+.message-time-user {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.message-time-user {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.message-sender-details {
+  flex-direction: column;
+  padding: var(--padding-5xs-5) 0 0;
+}
+.profile-3-icon {
+  height: 31px;
+  width: 32px;
+  position: relative;
+  border-radius: var(--br-mini);
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.message-sender,
+.message-web2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.message-sender {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--font-size-3xs);
+  color: var(--color-lightslategray);
+}
+.message-web2 {
+  height: 74px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}

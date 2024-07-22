@@ -1,0 +1,299 @@
+.dashboard-layout-icon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navigation-names {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.project-icon5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navigation-names1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.customer-support-icon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navigation-names2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.settings-icon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.dashboard-navigation4,
+.settings-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.settings-frame {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-royalblue-300);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-7xs);
+}
+.dashboard-navigation4 {
+  flex-direction: column;
+  gap: var(--gap-15xl);
+}
+.frame-input4 {
+  margin: 0;
+  width: 36px;
+  height: 24px;
+}
+.dashboard-navigation-parent2,
+.settings-options-panel-item {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.dashboard-navigation-parent2 {
+  width: 60px;
+  border: 1px solid var(--color-aliceblue);
+  flex-direction: column;
+  padding: var(--padding-70xl) var(--padding-3xs) var(--padding-109xl)
+    var(--padding-xs);
+  gap: var(--gap-352xl);
+}
+.settings-options-panel-item {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 43px;
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-11xl) var(--padding-7xs);
+  font-family: var(--font-ibm-plex-sans);
+  font-weight: 700;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+  min-width: 158px;
+}
+.account-management,
+.plan-management,
+.settings-options-panel1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.account-management,
+.plan-management {
+  align-self: stretch;
+}
+.settings-options-panel1 {
+  width: 263px;
+  gap: var(--gap-9xs);
+}
+.separator {
+  width: 23px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-aliceblue);
+}
+.plan-separator {
+  height: 743px;
+  width: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.change-current-plan {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 17px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.you-can-change {
+  width: 384px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.plan-description,
+.plan-options-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.plan-options-wrapper {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.plan-description {
+  flex-direction: column;
+  padding: 0 var(--padding-7xs) var(--padding-7xs) 0;
+  box-sizing: border-box;
+  gap: 31px;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.button13 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 86px;
+}
+.button12,
+.change-plan-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button12 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-7xl);
+  background-color: var(--color-royalblue-300);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button12:hover {
+  background-color: var(--color-royalblue-100);
+}
+.change-plan-button {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.plan-details,
+.plan-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.plan-title {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.plan-details {
+  width: 982px;
+  padding: var(--padding-20xl) 0 0;
+  box-sizing: border-box;
+}
+.options-content,
+.options-content-wrapper {
+  overflow: hidden;
+  flex-direction: row;
+  max-width: 100%;
+}
+.options-content {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.options-content-wrapper {
+  width: 1360px;
+  background-color: var(--color-aliceblue);
+  padding: var(--padding-11xs) var(--padding-11xs) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.options-content-wrapper,
+.profile-content-parent,
+.ums-settings-change-plan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profile-content-parent {
+  flex: 1;
+  flex-direction: column;
+  max-width: calc(100% - 60px);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}
+.ums-settings-change-plan {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1250px) {
+  .options-content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .dashboard-navigation-parent2 {
+    padding-top: var(--padding-39xl);
+    padding-bottom: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+  .plan-options-wrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .change-current-plan {
+    font-size: var(--font-size-7xl);
+    line-height: 14px;
+  }
+  .plan-description {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dashboard-navigation-parent2 {
+    padding-top: var(--padding-19xl);
+    padding-bottom: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+  .change-current-plan {
+    font-size: var(--font-size-lgi);
+    line-height: 10px;
+  }
+}

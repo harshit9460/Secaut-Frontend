@@ -1,0 +1,148 @@
+.name12,
+.whats-your-name12 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 70px;
+}
+.whats-your-name12 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+  min-width: 49px;
+}
+.first-name-input-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.first-name-input {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 5px;
+}
+.first-name-input-cursor-wrapper {
+  align-self: stretch;
+  border-radius: var(--br-16xl);
+  border: 1px solid var(--color-lightslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.first-name-input-content,
+.text-input12 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+}
+.first-name-input-content {
+  width: 23px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) 0 0;
+  color: var(--color-lightslategray);
+}
+.text-input12 {
+  flex: 1;
+  border-radius: var(--br-xs);
+  border: 2px solid var(--color-aliceblue);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-4xl) var(--padding-7xs)
+    var(--padding-lgi);
+  min-width: 313px;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.name13,
+.whats-your-name13 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 67px;
+}
+.whats-your-name13 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+  min-width: 38px;
+}
+.last-name-input-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.last-name-input {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 5px;
+}
+.last-name-input-content,
+.last-name-input-cursor-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.last-name-input-cursor-wrapper {
+  align-self: stretch;
+  border-radius: var(--br-16xl);
+  border: 1px solid var(--color-lightslategray);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+}
+.last-name-input-content {
+  width: 23px;
+  flex-direction: column;
+  padding: var(--padding-3xs-5) 0 0;
+  box-sizing: border-box;
+  color: var(--color-lightslategray);
+}
+.first-name-inputs,
+.name-inputs,
+.text-input13 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.text-input13 {
+  flex: 1;
+  border-radius: var(--br-xs);
+  border: 2px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-4xl) var(--padding-7xs)
+    var(--padding-lgi);
+  min-width: 313px;
+  gap: var(--gap-xl);
+}
+.first-name-inputs,
+.name-inputs {
+  justify-content: flex-start;
+}
+.first-name-inputs {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-8xl);
+}
+.name-inputs {
+  align-self: stretch;
+  padding: 0 var(--padding-9xl) var(--padding-14xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  font-family: var(--font-ibm-plex-sans);
+}
